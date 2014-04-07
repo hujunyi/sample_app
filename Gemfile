@@ -4,6 +4,8 @@ gem 'rails', '3.2.13'
 gem 'bootstrap-sass', '2.1'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'newrelic_rpm'
+gem 'faker', '1.0.1'
+gem 'will_paginate', '3.0.3'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
@@ -31,5 +33,4 @@ end
 group :production do
   gem 'pg', '0.12.2'
   gem 'rails_12factor', '0.0.2'
-  gem 'newrelic_rpm'
 end
